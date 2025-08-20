@@ -1,0 +1,37 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: whitesmoke;
+  color: grey;
+  padding: 20px;
+  position: fixed;
+  overflow-y: auto;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.06); /* Add this for a subtle separation */
+}
+
+ h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #6366f1; /* Apply primary color */
+}
+
+.menu-items div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.menu-items div svg {
+  margin-right: 10px;
+}
+
+.menu-items div:hover {
+  border-radius: 10px;
+  background-color: #6366f1; /* Use primary color for hover */
+  color: white;
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
