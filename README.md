@@ -1,5 +1,5 @@
 # Dashboard
-
+Deployed - https://dynamic-dashboard-sohel.netlify.app/
 A modern, responsive dashboard built with **React**, **Vite**, and **ApexCharts**.
 
 ## Features
