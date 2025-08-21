@@ -1,0 +1,22 @@
+.dynamic-line-chart {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1.5px solid #cecece; /* Add this line for a visible border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.dynamic-line-chart h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.dynamic-line-chart p {
+  color: #4a90e2;
+  font-size: 18px;
+}
+
+.dynamic-line-chart .apexcharts-canvas {
+  margin: 0 auto;
+}

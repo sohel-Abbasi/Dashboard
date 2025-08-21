@@ -1,0 +1,42 @@
+.dashboard-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-card h3 {
+  font-size: 18px;
+}
+
+.card-icon{
+  margin-top: 20px;
+  font-size: 24px;
+  color: white; /* Example color */
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #4a90e2;
+  margin-right: 5px; /* Light background for the icon */
+}
+
+.amount h2 {
+  font-size: 22px;
+}
+
+.amount span {
+  color: green;
+  font-size: 16px;
+}

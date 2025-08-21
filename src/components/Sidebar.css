@@ -1,0 +1,127 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: whitesmoke;
+  color: grey;
+  padding: 20px;
+  position: fixed;
+  overflow-y: auto;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.06); /* Add this for a subtle separation */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #6366f1; /* Apply primary color */
+}
+
+.menu-items {
+  flex: 1 1 auto;
+}
+
+.menu-items div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px; /* Add this line */
+}
+
+.menu-items div svg {
+  margin-right: 10px;
+}
+
+.menu-items div:hover {
+  border-radius: 10px;
+  background-color: #6366f1; /* Use primary color for hover */
+  color: white;
+  /* Remove padding here */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.menu-items div:hover .icon {
+  background-color: #fff;       /* Icon background white */
+  color: #6366f1;               /* Icon color #6366f1 */
+}
+
+.menu-items a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-items a .icon {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #6366f1;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-items a:hover,
+.menu-items a.active {
+  background-color: #6366f1;
+  color: white;
+}
+
+.menu-items a:hover .icon,
+.menu-items a.active .icon {
+  background-color: #fff;
+  color: #6366f1;
+}
+
+.sidebar-help-box {
+  margin-top: 10px;
+  padding: 18px 12px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 14px;
+  background: linear-gradient(135deg, #6366f1 60%, #a5b4fc 100%);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.12);
+  margin-bottom: 30px;
+ 
+}
+
+.help-star {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #fffbe7; /* Use a light color for the star background */
+  color: #6366f1; /* Use primary color for the star */
+  filter: drop-shadow(0 2px 8px #fffbe7aa);
+}
+
+.sidebar-help-box p {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.help-link {
+  color: #fffbe7;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.icon{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #6366f1; /* Use primary color for the icon background */
+  color: white; /* Use white for the icon color */
+}
